@@ -1,4 +1,6 @@
-﻿using System.Runtime.InteropServices;
+﻿using System.ComponentModel.Design;
+using System.Linq.Expressions;
+using System.Runtime.InteropServices;
 
 namespace ConsoleApp1
 {
@@ -96,12 +98,79 @@ namespace ConsoleApp1
             //Console.WriteLine(a[1]);
             //Console.WriteLine(a[2]);
 
-            Console.WriteLine("请输入年龄：");
-            int a = int.Parse(Console.ReadLine());
-            string w = a >= 18 ? "成年" : "未成年";
-            Console.WriteLine(w);
+            //Console.WriteLine("请输入年龄：");
+            //int a = int.Parse(Console.ReadLine());
+            //string w = a >= 18 ? "成年" : "未成年";
+            //Console.WriteLine(w);
+
+            //根据输入的成绩判断是不及格(小于60),及格(大于60小于80), 良好(大于80小于90),优秀(大于90小于100)
+            //Console.WriteLine("请输入分数（1`100）");
+            //int a = int.Parse(Console.ReadLine());
+            //if (a >= 0 && a < 60)
+            //{
+            //    Console.WriteLine($"{a}--不及格");
+            //}
+            //else if (a < 80)
+            //{
+            //    Console.WriteLine($"{a}--及格");
+            //}
+            //else if (a < 90)
+            //{
+            //    Console.WriteLine($"{a}--良好");
+            //}
+            //else if (a <= 100)
+            //{
+            //    Console.WriteLine($"{a}--优秀");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("请重新输入分数（1~100）");
+            //}
+            //输入年份，判断是否是闰年(普通闰年：能被4整除但不能被100整除 / 世纪闰年：可以被400整除)
 
 
+            //Console.WriteLine("请输入分数");
+            //int n = int.Parse(Console.ReadLine());
+            //if (n >= 0 && n <= 100) {
+            //    int num = n / 10;
+            //    switch (num)
+            //    {
+            //        case 0:
+            //        case 1:
+            //        case 2:
+            //        case 3:
+            //        case 4:
+            //        case 5: Console.WriteLine("分数等级是F"); break;
+            //        case 6: Console.WriteLine("分数等级是D"); break;
+            //        case 7: Console.WriteLine("分数等级是C"); break;
+            //        case 8: Console.WriteLine("分数等级是B"); break;
+            //        case 9:
+            //        case 10: Console.WriteLine("分数等级是A"); break;
+            //    }
+            //}
+            //else 
+            //{
+            //    Console.WriteLine("分数有误");
+
+            //switch简写
+            //Console.WriteLine("请输入分数");
+            //int n = int.Parse(Console.ReadLine());
+            //if (n >= 0 && n <= 100) {
+            //    string res = n switch
+            //    {
+            //        >= 90 => "a",
+            //        >= 80 => "b",
+            //        >= 70 => "c",
+            //        >= 60 => "d",
+            //        _ => "f",
+            //    };
+            //    Console.WriteLine(res);
+            //}
+
+            //Console.WriteLine("请输入年份");
+            //int a = int.Parse(Console.ReadLine());
+            //string res = a % 4 == 0 && a % 100 != 0 || a % 400 == 0 ? "闰年" : "平年";
+            //Console.WriteLine(res);
         }
     }
 }
