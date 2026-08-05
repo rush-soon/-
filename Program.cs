@@ -1,0 +1,199 @@
+﻿namespace ConsoleApp2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //Console.WriteLine("Hello, World!");
+            //Console.WriteLine("请输入数字:");
+            //Console.WriteLine("请输入数字:");
+            //string num1 = Console.ReadLine();
+            //string num2 = Console.ReadLine();
+            //int n1 = int .Parse(num1);
+            //int n2 = int .Parse(num2);
+            //int n3 = n1 + n2;
+            //Console.WriteLine(n3);
+
+            //Console.WriteLine("请输入温度：");
+            //string h = Console.ReadLine();
+            //double d = double.Parse(h);
+            //double s = (d - 32) * 5 / 9;
+            //s = Math.Round(s, 2);
+            //Console.WriteLine(s);
+
+            //Console.WriteLine("请输入数字1：");
+            //Console.WriteLine("请输入数字2：");
+            //string a = Console.ReadLine();
+            //string b = Console.ReadLine();
+            //int num1 = int .Parse(a);
+            //int num2 = int .Parse(b);
+            //int num3 = num1;
+            //num1 = num2;
+            //num2 = num3;
+            //Console.WriteLine("数字1是:{0}，数字2是:{1}",num1,num2);
+
+            //int a = 89;
+            //int b = a / 24;
+            //int c = a % 24;
+            //Console.WriteLine("一共{0}天{1}小时",b,c);
+
+            //Random r = new Random();
+            //double num1 =  r.NextDouble();
+            // num1 = Math.Round(num1,2);
+            //Console.WriteLine(num1);
+
+            //Console.WriteLine("请输入账号");
+            //string A = Console.ReadLine();
+            //Console.WriteLine("请输入密码");
+            //string B = Console.ReadLine();
+            //if (A != "admin") Console.WriteLine("账号不存在");
+            //else if (B != "123456") Console.WriteLine("密码错误");
+            //else Console.WriteLine("登入成功");
+
+            //Console.WriteLine("请选择 add/edit/del");
+            //string S = Console.ReadLine();
+            //var A = S switch 
+            //{ 
+            //"add"  => "新增成功",
+            //"edit" => "修改成功",
+            //"del"  => "删除成功",
+            //};
+            //Console.WriteLine(A);
+
+
+            //string S = Console.ReadLine();
+            //int A = int.Parse(Console.ReadLine());
+            //if (S == "vip")
+            //{
+            //    if (A < 1000)
+            //    {
+            //        Console.WriteLine(A);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(A * 0.9);
+            //    }
+            //}
+            //else
+            //{
+            //    if (A < 2000)
+            //    {
+            //        Console.WriteLine(A);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(A * 0.95);
+            //    }
+            //}
+
+
+            //Console.WriteLine("请输入月份：");
+            //int m = int.Parse(Console.ReadLine());
+            //switch (m)
+            //{
+            //    case 3:
+            //    case 4:
+            //    case 5:
+            //        Console.WriteLine("春季");
+            //        break;
+            //    case 6:
+            //    case 7:
+            //    case 8:
+            //        Console.WriteLine("夏季");
+            //        break;
+            //    case 9:
+            //    case 10:
+            //    case 11:
+            //        Console.WriteLine("秋季");
+            //        break;
+            //    case 12:
+            //    case 1:
+            //    case 2:
+            //        Console.WriteLine("冬季");
+            //        break;
+            //    default:
+            //        Console.WriteLine("月份输入不对");
+            //        break;
+            //}
+
+            //Console.WriteLine("请输入快递重量（KG）:");
+            //double g = double.Parse(Console.ReadLine());
+
+            //double price;
+            //if (g < 1)
+            //{
+            //    price = 10;
+            //    Console.WriteLine("快递费：" + price);
+            //}
+            //else if (g <= 5)
+            //{
+            //    price = 20;
+            //    Console.WriteLine("快递费：" + price);
+            //}
+            //else if (g > 5)
+            //{
+            //    price = 50;
+            //    Console.WriteLine("快递费：" + price);
+            //}
+
+            //Console.WriteLine("输入会员等级（3-5的整数）：");
+            //int level = int.Parse(Console.ReadLine());
+            //switch (level)
+            //{
+            //    case 5:
+            //        Console.WriteLine("终身免运费");
+            //        break;
+            //    case 4:
+            //        Console.WriteLine("每月可领优惠卷");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("购物打9折");
+            //        break;
+            //    default:
+            //        Console.WriteLine("没有福利");
+            //        break;
+            //}
+
+            //Console.WriteLine("输入商品编号：");
+            //int bianhao = int.Parse(Console.ReadLine());
+            //switch (bianhao)
+            //{
+            //    case 1:
+            //        Console.WriteLine("已购买可乐");
+            //        break;
+
+            //    case 2:
+            //        Console.WriteLine("已购买雪碧");
+            //        break;
+
+            //    case 3:
+            //        Console.WriteLine("已购买矿泉水");
+            //        break;
+            //    default:
+            //        Console.WriteLine("无此商品");
+            //        break;
+            //}
+
+            //Console.WriteLine("输入当前速度：");
+            //double speed = double.Parse(Console.ReadLine());
+            //if (speed > 0 && speed <= 30)
+            //{
+            //    Console.WriteLine("低速通过");
+
+            //}
+            //else if (speed <= 60)
+            //{
+            //    Console.WriteLine("中速通过");
+            //}
+            //else if (speed <= 100)
+            //{
+            //    Console.WriteLine("高速通过");
+            //}
+            //else if (speed <= 120)
+            //{
+            //    Console.WriteLine("超速通过");
+            //}
+        }
+    }
+}
+
