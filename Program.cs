@@ -312,17 +312,17 @@ namespace ConsoleApp2
 
             //9
             //int a = 1;
-            //for (int i = 1; i<=7 ; i++)
+            //for (int i = 1; i <= 7; i++)
             //{
-            //    a =  a * 2 + 1;
+            //    a = a * 2 + 1;
             //}
             //Console.WriteLine(a);
 
             //10
-            //double a = 5;
-            //for (int i = 1; i <= 10; i++)
+            //double a = 0;
+            //for (int i = 1; i <= 9; i++)
             //{
-            //    a += a / Math.Pow(2, i);
+            //    a += 10 / Math.Pow(2, i);
             //}
             //double b = a * 2 + 10;
             //Console.WriteLine(b);
