@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp2
+﻿using System.Globalization;
+
+namespace ConsoleApp2
 {
     internal class Program
     {
@@ -193,6 +195,139 @@
             //{
             //    Console.WriteLine("超速通过");
             //}
+
+            //int i = 1;
+            //int sum = 0;
+            //while(i<=10){
+            //    sum += i;
+            //    i++;
+            //}
+            //Console.WriteLine(sum);
+
+            //1
+            //int sum = 0;
+            //for(int a = 0; a <= 100; a += 2)
+            //{
+            //     sum += a;
+            //}
+            //Console.WriteLine(sum);
+
+            //2
+            //int i = 1000;
+            //int n = 0;
+            //while (i <= 2000)
+            //{
+            //    if (i%4==0 && i%100!=0 || i % 400 == 0)
+            //    {
+            //        if (n % 4 == 0)
+            //        {
+            //            Console.WriteLine();
+            //        }
+            //        n++;
+            //        Console.Write($"{i} ");
+            //    }
+            //    i++;
+            //}
+
+
+            //3
+            //int n = 9;
+            //while (n >= 0)
+            //{
+            //    int i = 1;
+            //    while (i <= n)
+            //    {
+            //        Console.Write("*");
+            //        i++;
+            //    }
+            //    Console.WriteLine("");
+            //    n--;
+            //}
+
+            //4
+            //double i = 1;
+            //for(double a = 2; a <= 100; a++)
+            //{
+            //    if (a % 2 == 0)
+            //    {
+            //        i = i + (1 / a * -1);
+            //    }
+            //    else
+            //    {
+            //        i = i + 1 / a;
+            //    }
+            //}
+            //Console.WriteLine(i);
+
+
+            //5
+            //long sum = 1;
+            //long num = 0;
+            //int a = 1;
+            //    while (a <= 20)
+            //    {
+            //    sum *= a;
+            //    num += sum;
+            //    a++;
+            //}
+            //Console.WriteLine(num);
+
+            //for (int i = 9; i >= 0; i--) 
+            //{
+            //    for (int j = 1; j <= i; j++) 
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine("*");
+            //}
+
+            //6
+            //double a = 5;
+            //double b = 1;
+            //for (; a >= 0.1; b++)
+            //{
+            //    a*=Math.Pow(0.3,b);
+            //}
+            //Console.WriteLine(b);
+
+            //7
+            //double a = 0;
+            //for (double i = 0; i < 64; i++)
+            //{
+            //    a +=  Math.Pow(2, i);
+            //}
+            //double c = a * 0.00001;
+            //Console.WriteLine(c);
+
+            //8
+            //double i = 50000;
+            //int a = 0;
+
+            //while (i >= 5000) 
+            //{
+            //    Console.WriteLine($"{i},{a}");
+            //    i = i - i * 0.05;
+            //    a++;
+            //}
+
+            //9
+            //int a = 1;
+            //for (int i = 1; i<=7 ; i++)
+            //{
+            //    a =  a * 2 + 1;
+            //}
+            //Console.WriteLine(a);
+
+            //10
+            //double a = 5;
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    a += a / Math.Pow(2, i);
+            //}
+            //double b = a * 2 + 10;
+            //Console.WriteLine(b);
+
+
         }
     }
 }
