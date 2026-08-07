@@ -316,7 +316,7 @@ namespace ConsoleApp2
             //{
             //    a = (a + 1) * 2;
             //}
-            //Console.WriteLine(a);
+            //Console.WriteLine(a);     
 
             //10
             //double a = 0;
@@ -328,6 +328,278 @@ namespace ConsoleApp2
             //Console.WriteLine(b);
 
 
+            //Dictionary<dynamic, dynamic> dic = new Dictionary<dynamic, dynamic>()
+            //{
+            //    ["name"] = "nige",
+            //    ["age"]  =  18,
+            //    ["gender"] = "man",
+            //};
+            //Console.WriteLine(dic.TryAdd("atm",10000));
+            //foreach(dynamic d in dic) 
+            //{
+            //    Console.WriteLine(d);
+            //}
+
+            //List<string> list = new List<string>()
+            //{
+            //    "a","b","a","b","a","b"
+            //};
+            //for(int i = 0; i < list.Count; i++)
+            //{
+            //    for(int j = i + 1; j < list.Count; j++)
+            //    {
+            //        if (list[i] == list[j])
+            //        {
+            //             list.RemoveAt(j);
+            //            j--;
+            //        }
+            //    }
+            //}
+            //foreach (string s in list) {
+            //    Console.WriteLine(s);
+            //}
+
+            //int n = 0;
+            //for (int i = 1000; i <= 2000;)
+            //{
+            //    if (i % 4 == 0)
+            //        Console.Write($"{i} ");
+            //    i++;
+            //    n++;
+            //    if (n % 4 == 0)
+            //    Console.WriteLine();
+
+            //List<int> fors = new List<int>()
+            //{
+            //    1,2,3,4,5,6,7,7,6,5,4,3,2,1,
+            //};
+            //List<int> fors2 = new List<int>();
+            //foreach(var i in fors)
+            //{
+            //    if (!fors2.Contains(i))
+            //    {
+            //        fors2.Add(i);
+            //    }
+            //}
+            //foreach(var a in fors2)
+            //{
+            //    Console.Write(a);
+            //}
+
+            //List<int> list = new()
+            //{
+            //    1,2,3,4,5,6,7,8,9,8,7,6,5,4,3,2,1
+            //};
+
+            //for(int i = 0; i < list.Count; i++)
+            //{
+            //    int a = list.LastIndexOf(list[i]);
+            //    if (list.LastIndexOf(list[i]) != i)
+            //        list.RemoveAt(a);
+            //}
+            //foreach(int b in list)
+            //{
+            //    Console.WriteLine(b);
+            //}
+
+            //Dictionary<int, dynamic> dic = new ();
+            //foreach (int i in list)
+            //{
+
+            //    dic[i] = " ";
+            //}
+            //List<int> newList = new List<int>();
+            //newList = dic.Keys.ToList();
+            //foreach (int i in newList)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //for(int i = 0; i < list.Count-1; i++)
+            //{
+            //    for(int j = 0; j < list.Count-1-i; j++)
+            //    {
+            //        if(list[j] > list[j + 1])
+            //        {
+            //            int num = list[j];
+            //            list[j]=list[j+1];
+            //            list[j+1]=num;
+            //        }
+            //    }
+            //}
+            //foreach(int b in list)
+            //{
+            //    Console.WriteLine(b);
+            //}
+
+
+            //作业
+            // 提示输入的 是price还是stock  排序类型 
+            // 提示输入的是 ASC 还是DSC     排序顺序(ASC升序,DSC降序)
+            // 根据输入完成数据排序
+
+            //List<Dictionary<string, dynamic>> goodsList = new List<Dictionary<string, dynamic>>
+            //    {
+            //        new Dictionary<string, dynamic>
+            //        {
+            //            {"name", "机械键盘"},
+            //            {"price", 299.99},
+            //            {"code", "G001"},
+            //            {"stock", 120}
+            //        },
+            //        new Dictionary<string, dynamic>
+            //        {
+            //            {"name", "无线鼠标"},
+            //            {"price", 89.50},
+            //            {"code", "G002"},
+            //            {"stock", 356}
+            //        },
+            //        new Dictionary<string, dynamic>
+            //        {
+            //            {"name", "27寸显示器"},
+            //            {"price", 1299.00},
+            //            {"code", "G003"},
+            //            {"stock", 48}
+            //        },
+            //        new Dictionary<string, dynamic>
+            //        {
+            //            {"name", "电竞耳机"},
+            //            {"price", 199.00},
+            //            {"code", "G004"},
+            //            {"stock", 85}
+            //        },
+            //        new Dictionary<string, dynamic>
+            //        {
+            //            {"name", "电脑支架"},
+            //            {"price", 69.90},
+            //            {"code", "G005"},
+            //            {"stock", 210}
+            //        }
+            //    };
+            //    Console.WriteLine("请选择排序类型（price/stock）");
+            //    string paixuleixing = Console.ReadLine();
+            //    Console.WriteLine("请选择排序顺序（ACE/DSC）");
+            //    string paixushunxu = Console.ReadLine();
+
+            //           for (int j = 0; j < goodsList.Count - 1; j++)
+            //            {
+            //                for (int i = 0; i < goodsList.Count - 1; i++)
+            //                {
+            //                    if (goodsList[i][paixuleixing] > goodsList[i + 1][paixuleixing])
+            //                    {
+            //                        var tmp = goodsList[i];
+            //                        goodsList[i] = goodsList[i + 1];
+            //                        goodsList[i + 1] = tmp;
+            //                    }
+
+            //                }
+            //             }
+            //    if (paixushunxu == "ACE")
+            //    {
+            //        foreach(var n in goodsList)
+            //        Console.WriteLine(n["name"]+"  " + n[paixuleixing]);
+            //    }
+            //    else if (paixushunxu == "DSC")
+            //    {
+            //        goodsList.Reverse();
+            //        foreach (var n in goodsList)
+            //            Console.WriteLine(n["name"] + "  " + n[paixuleixing]);
+            //    }
+
+            //List<Dictionary<string, dynamic>> singerList = new List<Dictionary<string, dynamic>>
+            //{
+            //    new Dictionary<string, dynamic>
+            //    {
+            //        {"singerId", 1001},
+            //        {"singerName", "周杰伦"},
+            //        {"genre", "流行"}
+            //    },
+            //    new Dictionary<string, dynamic>
+            //    {
+            //        {"singerId", 1002},
+            //        {"singerName", "林俊杰"},
+            //        {"genre", "华语流行"}
+            //    },
+            //    new Dictionary<string, dynamic>
+            //    {
+            //        {"singerId", 1003},
+            //        {"singerName", "邓紫棋"},
+            //        {"genre", "流行、摇滚"}
+            //    },
+            //    new Dictionary<string, dynamic>
+            //    {
+            //        {"singerId", 1004},
+            //        {"singerName", "薛之谦"},
+            //        {"genre", "抒情流行"}
+            //    },
+            //    new Dictionary<string, dynamic>
+            //    {
+            //        {"singerId", 1005},
+            //        {"singerName", "毛不易"},
+            //        {"genre", "民谣流行"}
+            //    }
+            //};
+
+            //List<Dictionary<string, dynamic>> songList = new List<Dictionary<string, dynamic>>
+            //{
+            //    new Dictionary<string, dynamic>
+            //    {
+            //        {"songId", 10001},
+            //        {"singerId", 1001},
+            //        {"songName", "青花瓷"},
+            //        {"duration", 239}
+            //    },
+            //    new Dictionary<string, dynamic>
+            //    {
+            //        {"songId", 10002},
+            //        {"singerId", 1001},
+            //        {"songName", "发如雪"},
+            //        {"duration", 253}
+            //    },
+            //    new Dictionary<string, dynamic>
+            //    {
+            //        {"songId", 10003},
+            //        {"singerId", 1001},
+            //        {"songName", "东风破"},
+            //        {"duration", 215}
+            //    },
+            //    new Dictionary<string, dynamic>
+            //    {
+            //        {"songId", 1004},
+            //        {"singerId", 3002},
+            //        {"songName", "不为谁而作的歌"},
+            //        {"duration", 296}
+            //    },
+            //    new Dictionary<string, dynamic>
+            //    {
+            //        {"songId", 1005},
+            //        {"singerId", 1002},
+            //        {"songName", "背对背拥抱"},
+            //        {"duration", 262}
+            //    }
+            //};
+
+            //Console.WriteLine("请输入歌曲：");
+            //string song = Console.ReadLine();
+            //int singerSongId = 0;
+            //if (song != null)
+            //{
+            //    foreach (dynamic songs in songList)
+            //    {
+            //        if (songs["songName"] == song)
+            //        {
+            //            singerSongId = songs["singerId"];
+            //        }
+            //    }
+            //    foreach (dynamic singerid in singerList)
+            //    {
+            //        if (singerSongId == singerid["singerId"])
+            //        {
+            //            Console.WriteLine(singerid["singerName"]);
+            //        }
+
+            //    }
+            //}
         }
     }
 }
